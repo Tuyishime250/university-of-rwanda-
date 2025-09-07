@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Rwanda</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.jpeg" type="image/jpeg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="images/icon.jpeg" alt="Itangazamakuru Logo" class="logo">
+                <h1 class="newspaper-title">University of Rwanda</h1>
+            </div>
+            <div class="date-section">
+                <span class="date" id="currentDate"></span>
+            </div>
+        </div>
+        <nav class="navigation">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Umutwe</a></li>
+                <li><a href="#education" class="nav-link">Intangiriro</a></li>
+                <li><a href="#economy" class="nav-link">Kwishyura</a></li>
+                <li><a href="#society" class="nav-link">HEC</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-image">
+                <img src="images/university_building.jpg" alt="Kaminuza y'u Rwanda" class="hero-img">
+                <div class="hero-overlay">
+                    <h2 class="hero-title">Sisitemu y'Imfashanyo y'Amashuri ku Banyeshuri ba Kaminuza y'u Rwanda</h2>
+                    <p class="hero-subtitle">Ubufasha Bufite Igiciro</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Breaking News Banner -->
+        <section class="breaking-news">
+            <div class="breaking-news-content">
+                <span class="breaking-label">INKURU YIHUTIRWA</span>
+                <span class="breaking-text">Inguzanyo y'abanyeshuri: Ubufasha ariko bufite igiciro</span>
+            </div>
+        </section>
+
+        <!-- Main Article -->
+        <article class="main-article" id="education">
+            <div class="article-header">
+                <h1 class="article-title">Sisitemu y'Imfashanyo y'Amashuri ku Banyeshuri ba Kaminuza y'u Rwanda: Ubufasha Bufite Igiciro</h1>
+                <div class="article-meta">
+                    <span class="author">Yanditswe na Sindayigaya Jean Claude – Inkuru Yihariye</span>
+                    <span class="publish-date" id="publishDate"></span>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <!-- Introduction -->
+                <section class="article-section">
+                    <h2 class="section-title">Intangiriro: Ubumenyi, Inzozi, n'Igiciro</h2>
+                    <div class="content-with-image">
+                        <div class="text-content">
+                            <p>Mu Rwanda, kwiga muri kaminuza ni inzozi za buri wese ndetse ni ingenzi ku gihugu. Buri mwaka, ibihumbi by'urubyiruko rw'u Rwanda no hanze yarwo binjira muri <strong>Kaminuza y'u Rwanda (UR)</strong> — ikaba ariyo kaminuza ya Leta nini mu gihugu. Ariko, kuri benshi, kuyigamo biba impamo <strong>bitewe na  gahunda y'imfashanyo y'amafaranga y'ishuri</strong> itangwa na <strong>Inama y'Uburezi Bukuru (HEC)</strong> ifatanyije na <strong>Banki y'Iterambere y'u Rwanda (BRD)</strong>.</p>
+                            <p>Nk'uko bisanzwe ku nguzanyo, iyi gahunda ifitiye agaciro abayihawe ariko  na none ifite n'ingaruka ku banyeshuri nyuma yo kurangiza amasomo.</p>
+                        </div>
+                        <div class="image-content">
+                            <img src="images/image_of_students1.jpg" alt="Abanyeshuri ba Kaminuza y'u Rwanda" class="article-image">
+                            <p class="image-caption">Abanyeshuri ba Kaminuza y'u Rwanda  nyuma yo kurangiza amasomo</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- How to Apply for Loan -->
+                <section class="article-section">
+                    <h2 class="section-title">Uko Usaba Inguzanyo</h2>
+                    
+                    <div class="subsection">
+                        <h3 class="subsection-title">1. Gusaba no Gutorwa</h3>
+                        <ul class="content-list">
+                            <li>Umunyeshuri umaze kwemererwa kwiga muri UR ashobora gusaba imfashanyo kuri <strong>porogaramu ya HEC (HECMIS)</strong>.</li>
+                            <li>Abasaba basuzumwa hashingiwe ku <strong>bipimo by'ubushobozi bw'amasomo, imibereho y'abo, n'intego z'uburezi</strong> (nko mu bumenyi, ikoranabuhanga, ubuvuzi).</li>
+                        </ul>
+                    </div>
+
+                    <div class="subsection">
+                        <h3 class="subsection-title">2. Gutangwa kw'inguzanyo</h3>
+                        <ul class="content-list">
+                            <li>Amafaranga y'ishuri agera kuri <strong>2,000,000 RWF buri mwaka</strong>.</li>
+                            <li>Hari kandi <strong>amafaranga yo kubaho (40,000 RWF buri kwezi)</strong> agenewe gufasha abanyeshuri mu biribwa, icumbi, n'ibindi bikenerwa.</li>
+                            <li>Amafaranga ashyirwa kuri <strong>konti y'umunyeshuri</strong> nyuma yo gusinya amasezerano muri Sisitemu ya <strong>MINUZA</strong>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="subsection">
+                        <h3 class="subsection-title">3. Ubuyobozi n'Icungamutungo</h3>
+                        <ul class="content-list">
+                            <li>HEC igenzura abanyeshuri bemerewe gufashwa, BRD ikagena uburyo bwo <strong>gutanga, gukurikirana no kwishyura inguzanyo nyuma y'amashuri</strong>.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Payment Methods -->
+                <section class="article-section">
+                    <h2 class="section-title">Uburyo bwo Kwishyura</h2>
+                    
+                    <div class="subsection">
+                        <h3 class="subsection-title">1. Igihe cyo Kwiruhura (Grace Period)</h3>
+                        <p>Abanyeshuri bahabwa <strong>amezi 6 nyuma yo kurangiza amashuri</strong> mbere yo gutangira kwishyura. Igihe kigamije kubaha umwanya wo kubona akazi cyangwa gutangira ubucuruzi.</p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3 class="subsection-title">2. Kuvana ku Mushahara</h3>
+                        <ul class="content-list">
+                            <li>Iyo umunyeshuri amaze kubona akazi, agomba gutangira kwishyura inguzanyo. Abakozi basabwa gutanga igice cy'umushahara wabo wa buri kwezi bakagishyikiriza BRD.</li>
+                            <li>Abanyeshuri batagira akazi ka Leta cyangwa abikorera, bagomba gutanga inyandiko z'imibereho yabo no kwishyura BRD ku giti cyabo Bitarenze <strong>Amezi 6</strong> Barangije Amasomo Yabo.</li>
+                        </ul>
+                    </div>
+
+                    <div class="subsection">
+                        <h3 class="subsection-title">3. Inyungu n'Amafaranga Yiyongera</h3>
+                        <div class="highlight-box">
+                            <ul class="content-list">
+                                <li>Inguzanyo y'abanyeshuri ba kaminuza ifite <strong>inyungu ya 11% ku mwaka</strong> hamwe na <strong>6% ya Value Retention Fee (VRF)</strong>, bivamo <strong>17% ku mwaka</strong>.</li>
+                                <li>Hari kandi <strong>1% y'umusoro w'ubuyobozi (Admin Fee)</strong> wongewe ku musozo w'inguzanyo.</li>
+                                <li>Iyo Uwishyura yarengeje Igihe cyateganywe cyo Gutangiriraho Kwishyura, aricyo <strong>Amezi 6</strong> nyuma yo kurangiza amasomo ye, <strong>hiyongeraho 10% nk'igihano</strong> ku nguzanyo isigaye.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Detailed Financial Calculations -->
+                <section class="article-section">
+                    <h2 class="section-title">📊 Imibare Y'Inguzanyo ku Banyeshuri ba Kaminuza y'u Rwanda</h2>
+                    
+                    <div class="subsection">
+                        <h3 class="subsection-title">Ibyibanze (Assumptions)</h3>
+                        <div class="financial-assumptions">
+                            <ul class="content-list">
+                                <li><strong>Amafaranga y'ishuri</strong>: 2,000,000 RWF ku mwaka</li>
+                                <li><strong>Amafaranga yo kubaho</strong>: 40,000 RWF ku kwezi (480,000 RWF ku mwaka)</li>
+                                <li><strong>Igihe cy'amasomo</strong>:  imyaka 4</li>
+                                <li><strong>Inyungu</strong>: 11% ku mwaka</li>
+                                <li><strong>VRF</strong>: 6% ku mwaka</li>
+                                <li><strong>Uburyo bwiyongera buri mwaka</strong>: 17% ku mwaka</li>
+                                <li><strong>Umusoro w'ubuyobozi (Admin fee)</strong>: 1% ku musozo</li>
+                                <li><strong>Igihano (Penalty)</strong>: 10% niba kwishyura bitatangira nyuma y'amezi 24</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <h3 class="subsection-title"> Amafaranga y'ishuri (tuition, disbursement rimwe ku mwaka)</h3>
+                        <p>Formula: <strong>A<sub>tuition</sub> = P × (1 + r)<sup>t</sup></strong></p>
+                        <p>Hano P = amafaranga y'ishuri y'umwaka</p> <p> r = 0.17 (inyungu + VRF)</p> t = imyaka isigaye kugeza urangije</p>
+                        
+                        <div class="financial-table">
+                            <table class="calculation-table">
+                                <thead>
+                                    <tr>
+                                        <th>Umwaka</th>
+                                        <th>Amafaranga</th>
+                                        <th>Imyaka</th>
+                                        <th>Ku musozo</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Umwaka">1</td>
+                                        <td data-label="Amafaranga">2,000,000</td>
+                                        <td data-label="Imyaka">4</td>
+                                        <td data-label="Ku musozo">2,000,000 × 1.17⁴ = 3,747,800</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Umwaka">2</td>
+                                        <td data-label="Amafaranga">2,000,000</td>
+                                        <td data-label="Imyaka">3</td>
+                                        <td data-label="Ku musozo">2,000,000 × 1.17³ = 3,194,600</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Umwaka">3</td>
+                                        <td data-label="Amafaranga">2,000,000</td>
+                                        <td data-label="Imyaka">2</td>
+                                        <td data-label="Ku musozo">2,000,000 × 1.17² = 2,738,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Umwaka">4</td>
+                                        <td data-label="Amafaranga">2,000,000</td>
+                                        <td data-label="Imyaka">1</td>
+                                        <td data-label="Ku musozo">2,000,000 × 1.17¹ = 2,340,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="total-highlight"><strong>Igiteranyo cy'amafaranga y'ishuri </strong> = 3,747,800 + 3,194,600 + 2,738,000 + 2,340,000 = <strong>12,020,400 RWF</strong></p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3 class="subsection-title"> Amafaranga yo kubaho (40,000 ku kwezi, disbursement buri kwezi)</h3>
+                        <p>Formula: <strong>A<sub>living</sub> = Σ<sub>m=1</sub><sup>12</sup> 40,000 × (1 + r)<sup>(t - m/12)</sup></strong></p>
+                        <p>Hano m = umubare w'ukwezi</p> <p>t = imyaka isigaye kugeza urangije</p>
+                        <p><em>Ikitonderwa</em>: Tubara 480,000 ku mwaka nk'igiteranyo cy'umwaka wose kandi dukoresha average ya 6 months compounding</p>
+                        
+                        <div class="financial-table">
+                            <table class="calculation-table">
+                                <thead>
+                                    <tr>
+                                        <th>Umwaka</th>
+                                        <th>Amafaranga</th>
+                                        <th>Imyaka</th>
+                                        <th>Ku musozo</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Umwaka">1</td>
+                                        <td data-label="Amafaranga">480,000</td>
+                                        <td data-label="Imyaka">4</td>
+                                        <td data-label="Ku musozo">480,000 × 1.17<sup>3.5</sup> = 814,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Umwaka">2</td>
+                                        <td data-label="Amafaranga">480,000</td>
+                                        <td data-label="Imyaka">3</td>
+                                        <td data-label="Ku musozo">480,000 × 1.17<sup>2.5</sup> = 703,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Umwaka">3</td>
+                                        <td data-label="Amafaranga">480,000</td>
+                                        <td data-label="Imyaka">2</td>
+                                        <td data-label="Ku musozo">480,000 × 1.17<sup>1.5</sup> = 608,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Umwaka">4</td>
+                                        <td data-label="Amafaranga">480,000</td>
+                                        <td data-label="Imyaka">1</td>
+                                        <td data-label="Ku musozo">480,000 × 1.17<sup>0.5</sup> = 518,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="total-highlight"><strong>Igiteranyo cy'amafaranga yo kubaho </strong> = 814,000 + 703,000 + 608,000 + 518,000 = <strong>2,643,000 RWF</strong></p>
+                    </div>
+
+                    <div class="subsection">
+                        <h3 class="subsection-title">Igiteranyo cya buri kintu ku musozo</h3>
+                        <div class="final-calculations">
+                            <p><strong>Amafaranga yose (tuition + living) nyuma yimyaka ine</strong> = 12,020,400 + 2,643,000 = <strong>14,663,400 RWF</strong></p>
+                            
+                            <p><strong>Ongeraho 1% admin fee:</strong>
+                            14,663,400 × 1.01 = <strong>14,810,000 RWF</strong></p>
+                            
+                            <p><strong>Igihano cya 10% niba kwishyura bitatangira:</strong></p>
+                            <p>14,810,000 × 1.10 = <strong>16,291,000 RWF</strong></p>
+                        </div>
+                        
+                        <div class="final-total-box">
+                            <h4>TOTAL Y'INGUZANYO (inyungu, VRF, admin fee, n'igihano):</h4>
+                            <p class="final-amount"><strong>= 16,291,000 RWF</strong></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Benefits -->
+                <section class="article-section">
+                    <h2 class="section-title">Ibyiza by'Inguzanyo</h2>
+                    <div class="benefits-grid">
+                        <div class="benefit-card">
+                            <h4>Kwinjira mu Mashuri Makuru</h4>
+                            <p>Inguzanyo ituma abanyeshuri benshi b'badafite  ubushobozi bwo kwiga muri kaminuza bakabya inzozi . Ibi bituma habaho uburinganire mu mashuri.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Guteza Imbere Abakozi b'Igihugu</h4>
+                            <p>Kwigisha abanyeshuri mu buvuzi n'ikoranabuhanga n'ingenzi ku bukungu bw'igihugu.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Gutanga Inshingano ku Muntu</h4>
+                            <p>Umunyeshuri amenya ko agomba kwishyura nyuma yo kurangiza amasomo, bigatuma afata uburezi nk'ishoramari.</p>
+                        </div>
+                        <div class="benefit-card">
+                            <h4>Guteza imbere Imibereyo yabaturage muri Rusange</h4>
+                            <p> Amafaranga y'ishyurwa nabanyeshuri yifashishwa muguteza imbere imibereyo yabaturage no kubaka ibikorwa remezo bityo igihugu cyacu kigahora kwisonga.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Challenges -->
+                <section class="article-section">
+                    <h2 class="section-title">Inenge n'Ibyakemurwa</h2>
+                    <div class="challenges-list">
+                        <div class="challenge-item">
+                            <h4>Inyungu kunguzanyo</h4>
+                            <p>Ku nyungu za 17% ku mwaka, inguzanyo ikura cyane mbere yo kurangiza amasomo. Urugero, umunyeshuri uhabwa <strong>9.9M RWF</strong> ashobora kurangiza yishyura hafi <strong>15M RWF</strong>.</p>
+                        </div>
+                        <div class="challenge-item">
+                            <h4>Umuzigo ku Barangije Amasomo</h4>
+                            <p>Abanyeshuri benshi batangira ubuzima basabwa kwishyura amafaranga menshi, bigatuma badashobora kwizigama cyangwa gutangiza imishinga no kwiteza imbere muri rusange.</p>
+                        </div>
+                        <div class="challenge-item">
+                            <h4>Abikorera ku Giti Cyabo</h4>
+                            <p>Abanyeshuri batagira akazi ka Leta bategetswe  kwishyura ku giti cyabo, ariko uburyo bwo kwishyura buragoye .</p>
+                        </div>
+                        <div class="challenge-item">
+                            <h4>Ibihano</h4>
+                            <p><strong>Igihano cya 10%</strong> mu gihe cyo gutangira kwishyura nyuma y'amezi 6 gifatwa nk'ikiremere.</p>
+                        </div>
+                        <div class="challenge-item">
+                            <h4>Amafaranga yo Kubaho</h4>
+                            <p>Amafaranga yo kubaho (<strong>40,000 RWF ku kwezi</strong>) ahanini ntayahagije, cyane cyane ku banyeshuri bigira i Kigali.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Public Opinion -->
+                <section class="article-section">
+                    <h2 class="section-title">Ibitekerezo by'Abanyeshuri n'Abakurikiranira hafi</h2>
+                    <div class="opinion-quotes">
+                        <blockquote class="quote">
+                            <p>"Abanyeshuri bashima iyi gahunda ariko batekereza ko igihano cy'inguzanyo kibaremereye."</p>
+                            <cite>- Abanyeshuri</cite>
+                        </blockquote>
+                        <blockquote class="quote">
+                            <p>"Abakoresha bavuga ko gukata amafaranga ku mushahara ari urugendo rutoroshye."</p>
+                            <cite>- Abakoresha</cite>
+                        </blockquote>
+                        <blockquote class="quote">
+                            <p>"Abahanga mu bukungu bavuga inguzanyo  ari ngombwa ariko hakenewe amavugurura  kugira ngo hatabaho gutera ubukene ku  barangije."</p>
+                            <cite>- Abahanga mu bukungu</cite>
+                        </blockquote>
+                    </div>
+                </section>
+
+              
+             
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>UNIVERSITY OF RWANDA</h3>
+                <p>Amakuru y'ingenzi y'u Rwanda</p>
+           
+        <div class="footer-bottom">
+            <p>&copy; 2025 University of rwanda . Byose birakurikizwa.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
